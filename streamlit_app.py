@@ -6,7 +6,8 @@ import os
 app = Flask(__name__)
 
 # Known face folder path (consider a more secure storage approach in production)
-known_faces_folder = "D:\\images_for_pythonProject\\"
+#known_faces_folder = "/images_for_pythonProject/"
+known_faces_folder="/"
 known_face_encodings = []
 known_face_names = []
 
@@ -67,7 +68,7 @@ def gen_frames():
 
             if not match_found:
                 # Save the unknown face image without the red box
-                cv2.imwrite(os.path.join("D:\\New Face", "unknown_face.jpg"), frame)
+                cv2.imwrite(os.path.join("/", "unknown_face.jpg"), frame)
                 print("New face found. Image saved.")
 
             ret, buffer = cv2.imencode('.jpg', frame)
