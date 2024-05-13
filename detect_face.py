@@ -6,10 +6,10 @@ import os
 app = Flask(__name__)
 
 # Known face folder path (consider a more secure storage approach in production)
-if not os.path.exists("/images/"):
-    os.makedirs("/images")
-if not os.path.exists("/new/"):
-    os.makedirs("/new/")
+if not os.path.exists("/home/druidotindia/images"):
+    os.makedirs("/home/druidotindia/images")
+if not os.path.exists("//home/druidotindia/new/"):
+    os.makedirs("/home/druidotindia/new/")
 
 #known_faces_folder = "D:\\images_for_pythonProject\\"
 known_face_encodings = []
