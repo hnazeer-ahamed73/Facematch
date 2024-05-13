@@ -1,4 +1,4 @@
-altgraph @ altgraph-0.17.2-py2.py3-none-any.whl
-future @ future-0.18.2-py3-none-any.whl
-macholib @ macholib-1.15.2-py2.py3-none-any.whl
-six @ six-1.15.0-py2.py3-none-any.whl
+altgraph = altgraph-0.17.2-py2.py3-none-any.whl
+future = future-0.18.2-py3-none-any.whl
+macholib = macholib-1.15.2-py2.py3-none-any.whl
+six = six-1.15.0-py2.py3-none-any.whl
