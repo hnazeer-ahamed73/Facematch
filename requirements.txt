@@ -36,7 +36,6 @@ deepface==0.0.86
 diffusers==0.23.1
 dill==0.3.7
 distro==1.4.0
-distro-info==0.23+ubuntu1.1
 Django==4.2.8
 djangorestframework==3.14.0
 dlib==19.24.4
